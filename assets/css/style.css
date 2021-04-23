@@ -250,6 +250,32 @@ section {
   transition: background-color 0.25s;
 }
 
+.film-comment__button {
+  float: right;
+  font-size: 1.125rem;
+}
+
+.film-info {
+  font-size: 1.2em;
+}
+
+.film-info__well {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.film-info__wrap {
+  white-space: nowrap;
+}
+
+.film-info__wrap:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.film-info__badge {
+  font-size: 0.8em;
+}
+
 .left-sidebar .panel:last-child {
   margin-bottom: 0;
 }
@@ -421,7 +447,7 @@ section {
 }
 
 .footer-fifth a {
-  color: #fbfbfb;
+  color: #ffffff;
 }
 
 @media (min-width: 576px) {
