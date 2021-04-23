@@ -250,11 +250,6 @@ section {
   transition: background-color 0.25s;
 }
 
-.film-comment__button {
-  float: right;
-  font-size: 1.125rem;
-}
-
 .film-info {
   font-size: 1.2em;
 }
@@ -264,16 +259,22 @@ section {
   border-top-right-radius: 0;
 }
 
-.film-info__wrap {
+.film-info__wrappper {
   white-space: nowrap;
 }
 
-.film-info__wrap:not(:last-of-type) {
+.film-info__wrappper:not(:last-of-type) {
   margin-right: 15px;
 }
 
 .film-info__badge {
   font-size: 0.8em;
+}
+
+.film-info .embed-responsive {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
 }
 
 .left-sidebar .panel:last-child {
