@@ -20,6 +20,25 @@
         padding-left: $gap / 2;
         &__title {
             @include text-shortener;
+            color: $color-dark;
+            font-family: $font-main;
+            margin: 0;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            &__thumbnail {
+                margin-bottom: 0;
+            }
+        }
+        &__image {
+            width: 100%;
+        }
+        &:hover &__title {
+            color: white;
+        }
+        &:hover .thumbnail {
+            border-color: $color-accent;
+            background-color: $color-accent;
         }
         &__thumbnail {
             margin-bottom: 0;
