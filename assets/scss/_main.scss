@@ -46,3 +46,28 @@
         }
     }
 }
+
+.film-news-item {
+    &__text {
+        text-align: justify;
+    }
+    &__image {
+        width: 100%;
+    }
+    &:hover {
+        .thumbnail {
+            background-color: lighten($color-accent, 5%);
+        }
+        h3>a {
+            color: $color-accent;
+        }
+        .btn-warning {
+            background-color: $color-accent;
+        }
+    }
+    &__button {
+        float: right;
+        margin-bottom: $gap * 2;
+        transition: background-color 0.25s;
+    }
+}
